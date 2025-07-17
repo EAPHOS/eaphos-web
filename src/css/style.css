@@ -457,13 +457,22 @@ sub {
 .footer .ft-inner .lt ul li:first-child {
   width: 17%;
   text-align: left;
+  vertical-align: top;
 }
 .footer .ft-inner .lt ul li:last-child {
   width: 70%;
 }
+.footer .ft-inner .lt ul li:first-child img {
+  vertical-align: top;
+  display: block;
+}
 .footer .ft-inner .rt {
   text-align: right;
   width: 62%;
+}
+.footer .ft-inner .rt ul {
+  display: flex;
+  justify-content: flex-end;
 }
 .footer .ft-inner .rt h1 {
   font-size: 16px;
@@ -482,9 +491,12 @@ sub {
   display: inline-block;
   margin-left: 100px;
   vertical-align: top;
+  width: auto;
+  text-align: left;
 }
 .footer .ft-inner .rt ul li a {
   text-align: left;
+  display: block;
 }
 
 /*서브공통*/

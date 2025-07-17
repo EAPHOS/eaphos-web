@@ -1,5 +1,4 @@
 import { createRoot } from 'react-dom/client';
-import './index.css';
 import './css/reset.css';
 import './css/default.css';
 import './css/eha.css';
