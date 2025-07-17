@@ -22,7 +22,7 @@ http://eaphos.com/kr/index.php
 
 ### 필수 요구사항
 
-- Node.js 18.19.0 (nvm 사용 권장)
+- Node.js 22.17.1
 - Yarn (권장) 또는 npm
 
 ### Yarn 설치 및 설정
