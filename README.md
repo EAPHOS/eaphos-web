@@ -3,7 +3,18 @@
 기존 페이지
 http://eaphos.com/kr/index.php
 
-클론코딩 생각한다고 생각하면됩니다
+<img width="499" height="132" alt="image" src="https://github.com/user-attachments/assets/9bc5959a-3211-453c-8708-ac4701011a8d" />
+<br/>
+<br/>
+↑ 실제 페이지들 입니다
+<br/>
+<br/>
+<img width="256" height="153" alt="화면 캡처 2025-07-17 131620" src="https://github.com/user-attachments/assets/aaf21e11-92ba-4867-aea7-14ebf49dddf3" />
+
+<br/>
+
+↑ 각자 맡은 부분 페이지 폴더에 들어가서 작업하고 푸시하면 됩니다. 이미지들은 asset폴더에 있습니다.
+<br/><br/>
 
 ## 개발 환경 설정
 
@@ -30,32 +41,16 @@ http://eaphos.com/kr/index.php
    yarn --version
    ```
 
-3. **Yarn 버전 설정 (선택사항)**
+3. **Yarn 버전 설정**
 
    ```bash
-   # 특정 버전으로 설정
    yarn set version 4.1.0
-
-   # 최신 안정 버전으로 설정
-   yarn set version stable
    ```
 
-4. **Yarn 캐시 정리 (필요시)**
-   ```bash
-   yarn cache clean
-   ```
 
 ### 설치 및 실행
 
-1. **Node.js 버전 확인**
-
-   ```bash
-   nvm use
-   # 또는
-   node --version
-   ```
-
-2. **의존성 설치**
+1. **의존성 설치**
 
    ```bash
    yarn install
@@ -63,27 +58,12 @@ http://eaphos.com/kr/index.php
    npm install
    ```
 
-3. **개발 서버 실행**
+2. **개발 서버 실행**
 
    ```bash
    yarn dev
    # 또는
    npm run dev
-   ```
-
-4. **빌드**
-
-   ```bash
-   yarn build
-   # 또는
-   npm run build
-   ```
-
-5. **린트 검사**
-   ```bash
-   yarn lint
-   # 또는
-   npm run lint
    ```
 
 ## 프로젝트 구조
