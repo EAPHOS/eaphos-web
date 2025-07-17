@@ -1,8 +1,8 @@
 const News = () => {
   return (
     <div>
-      <h1>NEWS</h1>
-      <p>뉴스 페이지입니다.</p>
+      <h1>News</h1>
+      <p>This is the news page.</p>
     </div>
   );
 };

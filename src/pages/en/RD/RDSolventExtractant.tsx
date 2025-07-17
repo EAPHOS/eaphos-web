@@ -1,8 +1,8 @@
 const RDSolventExtractant = () => {
   return (
     <div>
-      <h1>R&D 용매추출제</h1>
-      <p>R&D 용매추출제 페이지입니다.</p>
+      <h1>Solvent Extractant R&D</h1>
+      <p>This is the solvent extractant R&D page.</p>
     </div>
   );
 };

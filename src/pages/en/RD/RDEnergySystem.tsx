@@ -1,8 +1,8 @@
 const RDEnergySystem = () => {
   return (
     <div>
-      <h1>R&D 에너지 시스템</h1>
-      <p>R&D 에너지 시스템 페이지입니다.</p>
+      <h1>Energy System R&D</h1>
+      <p>This is the energy system R&D page.</p>
     </div>
   );
 };

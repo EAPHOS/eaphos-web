@@ -1,8 +1,8 @@
 const SolventExtractant = () => {
   return (
     <div>
-      <h1>용매추출제</h1>
-      <p>용매추출제 제품 페이지입니다.</p>
+      <h1>溶媒抽出剤</h1>
+      <p>溶媒抽出剤製品ページです。</p>
     </div>
   );
 };
