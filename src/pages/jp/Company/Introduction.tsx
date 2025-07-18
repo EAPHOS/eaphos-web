@@ -35,54 +35,6 @@ const Introduction = () => {
 
   return (
     <>
-      {/* パンくずリストセクション */}
-      <section className='s-top'>
-        <div className='s-txt container'>
-          <h5 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>
-            <a href='/jp/index.php'>ホーム</a> &gt;
-            <a href='/jp/com01.php'> Company</a> &gt;
-            <a href='/jp/com01.php'> 会社紹介</a>
-          </h5>
-          <h1 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>会社紹介</h1>
-          <ul>
-            <li>
-              <a
-                href='/jp/com01.php'
-                className='on'
-                style={{ fontFamily: 'Noto Sans KR, sans-serif' }}
-              >
-                会社紹介
-              </a>
-            </li>
-            <li>
-              <a
-                href='/jp/com03.php'
-                style={{ fontFamily: 'Noto Sans KR, sans-serif' }}
-              >
-                認証及び知的財産
-              </a>
-            </li>
-            <li>
-              <a
-                href='/jp/com04.php'
-                style={{ fontFamily: 'Noto Sans KR, sans-serif' }}
-              >
-                投資会社
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div
-          className='s-B comTop'
-          style={{
-            backgroundImage: `url(${comTop})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            height: '200px',
-          }}
-        ></div>
-      </section>
-
       {/* 会社説明 */}
       <div className='s-comm container'>
         <h1 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>

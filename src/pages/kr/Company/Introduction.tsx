@@ -35,54 +35,6 @@ const Introduction = () => {
 
   return (
     <>
-      {/* Breadcrumb Section */}
-      <section className='s-top'>
-        <div className='s-txt container'>
-          <h5 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>
-            <a href='/kr/index.php'>홈</a> &gt;
-            <a href='/kr/com01.php'> Company</a> &gt;
-            <a href='/kr/com01.php'> Abous us</a>
-          </h5>
-          <h1 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>ABOUT US</h1>
-          <ul>
-            <li>
-              <a
-                href='/kr/com01.php'
-                className='on'
-                style={{ fontFamily: 'Noto Sans KR, sans-serif' }}
-              >
-                About us
-              </a>
-            </li>
-            <li>
-              <a
-                href='/kr/com03.php'
-                style={{ fontFamily: 'Noto Sans KR, sans-serif' }}
-              >
-                인증 및 지적재산
-              </a>
-            </li>
-            <li>
-              <a
-                href='/kr/com04.php'
-                style={{ fontFamily: 'Noto Sans KR, sans-serif' }}
-              >
-                투자사
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div
-          className='s-B comTop'
-          style={{
-            backgroundImage: `url(${comTop})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            height: '200px',
-          }}
-        ></div>
-      </section>
-
       {/* Company Description */}
       <div className='s-comm container'>
         <h1 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>
