@@ -181,6 +181,9 @@ sub {
   font-weight: 500;
   color: #333333;
   margin-bottom: 50px;
+  word-break: break-word;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .mainSwiper .swiper-pagination {
