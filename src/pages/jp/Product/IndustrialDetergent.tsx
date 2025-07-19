@@ -25,8 +25,41 @@ const IndustrialDetergent = () => {
         ]}
         imageClass='rndTop'
       />
-      <h1>工業用洗剤</h1>
-      <p>工業用洗剤製品ページです。</p>
+      <div className='s-comm container pro01 com-comm'>
+        <h3>工業用洗浄剤</h3>
+        <div className='pdb20'></div>
+        <h1>
+          工業用洗浄剤、CLEANTOP ®<span className='rr'> ® </span> です。
+        </h1>
+        <h5></h5>
+        <div className='s-comm container'>
+          <ul>
+            <h4>HM 45 マスク前処理洗浄剤</h4>
+          </ul>
+          <ul>
+            <h4>HM 47A マスク後処理洗浄剤</h4>
+          </ul>
+          <ul>
+            <h4>SPC 8000 光学用洗浄剤</h4>
+          </ul>
+          <ul>
+            <h4>BBP 自動車バンパーリサイクル洗浄剤</h4>
+          </ul>
+        </div>
+      </div>
+      <div className='pdt70'></div>
+      <div className='s-comm container pro01 com-comm  s-pad-bt'>
+        <h3>特殊 Ink</h3>
+        <h5>工業用洗浄剤の特殊Inkです。</h5>
+        <div className='s-comm container'>
+          <ul>
+            <h4>UV Ink</h4>
+          </ul>
+          <ul>
+            <h4>QD Ink</h4>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

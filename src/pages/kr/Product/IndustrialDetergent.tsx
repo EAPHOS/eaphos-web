@@ -19,8 +19,41 @@ const IndustrialDetergent = () => {
         ]}
         imageClass='rndTop'
       />
-      <h1>공업용 세정제</h1>
-      <p>공업용 세정제 제품 페이지입니다.</p>
+      <div className='s-comm container pro01 com-comm'>
+        <h3>공업용세정제</h3>
+        <div className='pdb20'></div>
+        <h1>
+          공업용 세정제, CLEANTOP<span className='rr'> ® </span> 입니다.
+        </h1>
+        <h5></h5>
+        <div className='s-comm container'>
+          <ul>
+            <h4>HM 45 마스크 전처리 세정제</h4>
+          </ul>
+          <ul>
+            <h4>HM 47A 마스크 후처리 세정제</h4>
+          </ul>
+          <ul>
+            <h4>SPC 8000 광학용 세정제</h4>
+          </ul>
+          <ul>
+            <h4>BBP 자동차범퍼 재활용 세정제</h4>
+          </ul>
+        </div>
+      </div>
+      <div className='pdt70'></div>
+      <div className='s-comm container pro01 com-comm  s-pad-bt'>
+        <h3>특수잉크</h3>
+        <h5>공업용 세정제의 특수잉크 입니다.</h5>
+        <div className='s-comm container'>
+          <ul>
+            <h4>UV 잉크</h4>
+          </ul>
+          <ul>
+            <h4>QD 잉크</h4>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

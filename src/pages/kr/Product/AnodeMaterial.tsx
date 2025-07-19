@@ -19,8 +19,18 @@ const AnodeMaterial = () => {
         ]}
         imageClass='rndTop'
       />
-      <h1>음극재 소재</h1>
-      <p>음극재 소재 페이지입니다.</p>
+      <div className='s-comm container'>
+        <h3>음극재 소재</h3>
+        <div className='pdb20'></div>
+        <h1>연구개발 중입니다.</h1>
+      </div>
+      <section className='container com-comm s-comm s-pad-bt'>
+        <div className='pdt20'></div>
+        <ul className='twoDiv'>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
     </div>
   );
 };

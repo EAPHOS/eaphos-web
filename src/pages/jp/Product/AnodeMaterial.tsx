@@ -25,8 +25,18 @@ const AnodeMaterial = () => {
         ]}
         imageClass='rndTop'
       />
-      <h1>陽極材</h1>
-      <p>陽極材製品ページです。</p>
+      <div className='s-comm container'>
+        <h3>負極材素材</h3>
+        <div className='pdb20'></div>
+        <h1>研究開発中です。</h1>
+      </div>
+      <section className='container com-comm s-comm s-pad-bt'>
+        <div className='pdt20'></div>
+        <ul className='twoDiv'>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
     </div>
   );
 };

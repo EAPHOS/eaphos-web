@@ -25,8 +25,18 @@ const AnodeMaterial = () => {
         ]}
         imageClass='rndTop'
       />
-      <h1>Anode Material</h1>
-      <p>This is the anode material product page.</p>
+      <div className='s-comm container'>
+        <h3>Anode Material</h3>
+        <div className='pdb20'></div>
+        <h1>It is under research and development.</h1>
+      </div>
+      <section className='container com-comm s-comm s-pad-bt'>
+        <div className='pdt20'></div>
+        <ul className='twoDiv'>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
     </div>
   );
 };
