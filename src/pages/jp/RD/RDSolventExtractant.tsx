@@ -1,7 +1,3 @@
-import React from "react";
-import { Link } from 'react-router-dom';
-import homeImg from '../../../assets/home.png';
-import rndTopImg from '../../../assets/rndTop.jpg';
 import rnd0201Img from '../../../assets/rnd02-01.png';
 import rnd0200Img from '../../../assets/rnd02-00.png';
 import rnd02000Img from '../../../assets/rnd02-000.png';
@@ -15,26 +11,6 @@ import rnd0210Img from '../../../assets/rnd02-10.jpg';
 const RDSolventExtractant = () => {
   return (
     <>
-      {/* <section className="s-top">
-        <div className="s-txt container">
-          <h5>
-            <Link to="/jp">
-              <img src={homeImg} alt="" />
-            </Link>
-            &gt; <Link to="/jp/rd/business-roadmap"> R&amp;D</Link> &gt; <Link to="/jp/rd/solvent-extractant"></Link> 溶媒抽出剤
-          </h5>
-          <h1>溶媒抽出剤</h1>
-          <ul className="fve">
-            <li><Link to="/jp/rd/business-roadmap">事業・ロードマップ</Link></li>
-            <li><Link to="/jp/rd/solvent-extractant" className="on">溶媒抽出剤</Link></li>
-            <li><Link to="/jp/rd/water-treatment-solution">水処理・ソリューション</Link></li>
-            <li><Link to="/jp/rd/energy-system">エネルギー・システム</Link></li>
-            <li><Link to="/jp/rd/anode-material">陰極材素材</Link></li>
-          </ul>
-        </div>
-        <div className="s-B rndTop" style={{ background: `url(${rndTopImg}) no-repeat`, padding: '100px 0 200px 0', marginTop: 40, backgroundSize: 'cover' }}></div>
-      </section> */}
-
       <div className="s-comm container">
         <h3>研究の背景と必要性</h3>
         <div className="pdb20"></div>
