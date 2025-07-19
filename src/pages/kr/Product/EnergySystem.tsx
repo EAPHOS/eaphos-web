@@ -50,7 +50,11 @@ const EnergySystem = () => {
           </li>
           <li>
             <p className='center'>
-              <img src='/src/assets/pro04-01.png' alt='' className='res-img' />
+              <img
+                src='/src/assets/pro04-01.png'
+                alt='energy-system'
+                className='res-img'
+              />
             </p>
           </li>
         </ul>
@@ -61,7 +65,11 @@ const EnergySystem = () => {
         <h3>PCS 한류기 설비 전체적인 구성</h3>
         <div className='pdb40'></div>
         <p>
-          <img src='/src/assets/pro04-03.png' alt='' className='res-img' />
+          <img
+            src='/src/assets/pro04-03.png'
+            alt='Overall Configuation of PCS'
+            className='res-img'
+          />
         </p>
       </div>
       <div className='pdt80'></div>
@@ -69,7 +77,11 @@ const EnergySystem = () => {
         <h3>PCS 한류기 시험 주회로 구성 및 주요기기 동작 시퀀스</h3>
         <div className='pdb40'></div>
         <p>
-          <img src='/src/assets/pro04-02.png' alt='' className='res-img' />
+          <img
+            src='/src/assets/pro04-02.png'
+            alt='PPCS and Main Sequence'
+            className='res-img'
+          />
         </p>
       </div>
       <div className='pdt80'></div>
