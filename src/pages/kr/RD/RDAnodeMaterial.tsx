@@ -6,7 +6,7 @@ const RDAnodeMaterial = () => {
       <PageNav
         title='음극재 소재'
         parentTitle='R&D'
-        parentPath='/kr/rd/anode-material'
+        parentPath='/kr/rd/business-roadmap'
         siblings={[
           { title: '사업 로드맵', path: '/kr/rd/business-roadmap' },
           { title: '용매추출제', path: '/kr/rd/solvent-extraction' },

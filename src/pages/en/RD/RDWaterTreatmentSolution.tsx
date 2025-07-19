@@ -53,7 +53,7 @@ const RDWaterTreatmentSolution = () => {
       <PageNav
         title='Water Treatment Solution'
         parentTitle='R&D'
-        parentPath='/en/rd/water-treatment-solution'
+        parentPath='/en/rd/business-roadmap'
         siblings={[
           { title: 'Business Roadmap', path: '/en/rd/business-roadmap' },
           { title: 'Solvent Extractants', path: '/en/rd/solvent-extractant' },

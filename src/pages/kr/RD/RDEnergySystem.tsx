@@ -6,7 +6,7 @@ const RDEnergySystem = () => {
       <PageNav
         title='에너지 시스템'
         parentTitle='R&D'
-        parentPath='/kr/rd/energy-system'
+        parentPath='/kr/rd/business-roadmap'
         siblings={[
           { title: '사업 로드맵', path: '/kr/rd/business-roadmap' },
           { title: '용매추출제', path: '/kr/rd/solvent-extractant' },

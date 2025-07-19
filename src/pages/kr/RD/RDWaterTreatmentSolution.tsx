@@ -53,7 +53,7 @@ const RDWaterTreatmentSolution = () => {
       <PageNav
         title='수처리 솔루션'
         parentTitle='R&D'
-        parentPath='/kr/rd/water-treatment-solution'
+        parentPath='/kr/rd/business-roadmap'
         siblings={[
           { title: '사업 로드맵', path: '/kr/rd/business-roadmap' },
           { title: '용매추출제', path: '/kr/rd/solvent-extractant' },
@@ -129,10 +129,10 @@ const RDWaterTreatmentSolution = () => {
           공정 내 발생되는 Na<sub>2</sub>SO<sub>4</sub>(황산나트륨)을 분리하여
           재활용
         </h4>
-        <ul>
+        <ul className='tech-boxes'>
           {techItems.map((item, index) => (
             <li key={`${item.title}-${index}`}>
-              <div className='box'>
+              <div className='box' style={{ minHeight: '480px' }}>
                 <div className='top'>
                   <p>
                     <img src={item.img} alt={item.title} />

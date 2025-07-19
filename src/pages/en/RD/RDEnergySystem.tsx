@@ -6,7 +6,7 @@ const RDEnergySystem = () => {
       <PageNav
         title='Energy System'
         parentTitle='R&D'
-        parentPath='/en/rd/energy-system'
+        parentPath='/en/rd/business-roadmap'
         siblings={[
           { title: 'Business Roadmap', path: '/en/rd/business-roadmap' },
           { title: 'Solvent Extractants', path: '/en/rd/solvent-extractant' },

@@ -6,7 +6,7 @@ const RDAnodeMaterial = () => {
       <PageNav
         title='Anode Material'
         parentTitle='R&D'
-        parentPath='/en/rd/anode-material'
+        parentPath='/en/rd/business-roadmap'
         siblings={[
           { title: 'Business Roadmap', path: '/en/rd/business-roadmap' },
           { title: 'Solvent Extractants', path: '/en/rd/solvent-extractant' },
