@@ -5,7 +5,6 @@ import rnd0102 from '../../../assets/rnd01-02.jpg';
 import rnd0103 from '../../../assets/rnd01-03.jpg';
 import rnd0104 from '../../../assets/rnd01-04.jpg';
 import rnd0105 from '../../../assets/rnd01-05.jpg';
-import '../../../css/roadmap-inline.css';
 import PageNav from '../../../components/PageNav';
 
 const BusinessRoadmap = () => {

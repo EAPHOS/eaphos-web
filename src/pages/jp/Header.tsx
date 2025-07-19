@@ -93,9 +93,6 @@ const Header = () => {
         });
       }
     };
-
-    // DOM이 완전히 렌더링된 후 스와이퍼 초기화
-    setTimeout(initSwiper, 100);
   }, []);
 
   return (

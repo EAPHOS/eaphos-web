@@ -134,18 +134,18 @@ sub {
 
 /*메인배너*/
 .mainSwiper .mainB01 {
-  background: url(/kr/img/mainB01.jpg) no-repeat;
+  background: url(../assets/mainB01.jpg) no-repeat;
   padding: 450px 0 450px 0;
   background-size: cover;
 }
 .mainSwiper .mainB02 {
-  background: url(/kr/img/mainB02.jpg) no-repeat;
+  background: url(../assets/mainB02.jpg) no-repeat;
   padding: 450px 0 450px 0;
   background-position: 40% 90%;
   background-size: cover;
 }
 .mainSwiper .mainB03 {
-  background: url(/kr/img/mainB03.jpg) no-repeat;
+  background: url(../assets/mainB03.jpg) no-repeat;
   padding: 450px 0 450px 0;
   background-size: cover;
 }
@@ -159,6 +159,7 @@ sub {
   color: #fff;
   font-family: 'NanumSquare';
 }
+
 .mainSwiper .txt h3 {
   font-size: 68px;
   font-weight: 900;
@@ -306,35 +307,35 @@ sub {
   background: #262626;
 }
 .main01Swiper .main01-01 {
-  background: url(/kr/img/main01-01.jpg) no-repeat;
+  background: url(../assets/main01-01.jpg) no-repeat;
   height: 450px;
   position: relative;
   transition: 0.3s;
   background-size: cover;
 }
 .main01Swiper .main01-02 {
-  background: url(/kr/img/main01-02.jpg) no-repeat;
+  background: url(../assets/main01-02.jpg) no-repeat;
   height: 450px;
   position: relative;
   transition: 0.3s;
   background-size: cover;
 }
 .main01Swiper .main01-03 {
-  background: url(/kr/img/main01-03.jpg) no-repeat;
+  background: url(../assets/main01-03.jpg) no-repeat;
   height: 450px;
   position: relative;
   transition: 0.3s;
   background-size: cover;
 }
 .main01Swiper .main01-04 {
-  background: url(/kr/img/main01-04.jpg) no-repeat;
+  background: url(../assets/main01-04.jpg) no-repeat;
   height: 450px;
   position: relative;
   transition: 0.3s;
   background-size: cover;
 }
 .main01Swiper .main01-05 {
-  background: url(/kr/img/main01-05.jpg) no-repeat;
+  background: url(../assets/main01-05.jpg) no-repeat;
   height: 450px;
   position: relative;
   transition: 0.3s;
@@ -396,7 +397,7 @@ sub {
 
 /*main02*/
 .main02 {
-  background: url(/kr/img/main02.jpg) no-repeat;
+  background: url(../assets/main02.jpg) no-repeat;
   padding: 150px 0 80px 0;
 }
 .main02 ul li {
@@ -558,25 +559,25 @@ sub {
   margin-bottom: 80px;
 }
 .s-top .comTop {
-  background: url(/src/assets/comTop.jpg) no-repeat;
+  background: url(../assets/comTop.jpg) no-repeat;
   padding: 100px 0 200px 0;
   margin-top: 40px;
   background-size: cover;
 }
 .s-top .rndTop {
-  background: url(/src/assets/rndTop.jpg) no-repeat;
+  background: url(../assets/rndTop.jpg) no-repeat;
   padding: 100px 0 200px 0;
   margin-top: 40px;
   background-size: cover;
 }
 .s-top .proTop {
-  background: url(/src/assets/proTop.jpg) no-repeat;
+  background: url(../assets/proTop.jpg) no-repeat;
   padding: 100px 0 200px 0;
   margin-top: 40px;
   background-size: cover;
 }
 .s-top .notTop {
-  background: url(/src/assets/notTop.jpg) no-repeat;
+  background: url(../assets/notTop.jpg) no-repeat;
   padding: 100px 0 200px 0;
   margin-top: 40px;
   background-size: cover;
@@ -972,7 +973,7 @@ sub {
 }
 
 .rnd02-01 {
-  background: url(/kr/img/rnd/rnd02-03.png) no-repeat #f8fbff;
+  background: url(../assets/rnd/rnd02-03.png) no-repeat #f8fbff;
   padding: 100px 0 250px 0;
 }
 .rnd02-01 ul li {
@@ -1428,21 +1429,21 @@ sub {
   color: #f5f5f5;
 }
 .rnd02-04 ul div.bg01 {
-  background: url(/kr/img/rnd/rnd02-08.jpg) no-repeat;
+  background: url(../assets/rnd/rnd02-08.jpg) no-repeat;
   width: 440px;
   height: 270px;
   border-radius: 10px;
   position: relative;
 }
 .rnd02-04 ul div.bg02 {
-  background: url(/kr/img/rnd/rnd02-09.jpg) no-repeat;
+  background: url(../assets/rnd/rnd02-09.jpg) no-repeat;
   width: 440px;
   height: 270px;
   border-radius: 10px;
   position: relative;
 }
 .rnd02-04 ul div.bg03 {
-  background: url(/kr/img/rnd/rnd02-10.jpg) no-repeat;
+  background: url(../assets/rnd/rnd02-10.jpg) no-repeat;
   width: 440px;
   height: 270px;
   border-radius: 10px;
@@ -1532,11 +1533,11 @@ sub {
 }
 /*.rnd03-02 ul .inner .dim{position:absolute; top:0; left:0; background:rgba(0,0,0,.5); width:100%; height:100%; border-radius:10px; opacity:0;}
 .rnd03-02 ul .inner:hover .dim{opacity:1; transition:.3s;}
-.rnd03-02 ul .inner.bg01{background:url(/kr/img/rnd/rnd03-03.jpg) no-repeat; width: 270px;height:340px; border-radius:10px;position:relative;}
-.rnd03-02 ul .inner.bg02{background:url(/kr/img/rnd/rnd03-04.jpg) no-repeat; width: 270px;height:340px; border-radius:10px;position:relative;}
-.rnd03-02 ul .inner.bg03{background:url(/kr/img/rnd/rnd03-05.jpg) no-repeat; width: 270px;height:340px; border-radius:10px;position:relative;}
-.rnd03-02 ul .inner.bg04{background:url(/kr/img/rnd/rnd03-06.jpg) no-repeat; width: 270px;height:340px; border-radius:10px;position:relative;}
-.rnd03-02 ul .inner.bg05{background:url(/kr/img/rnd/rnd03-07.jpg) no-repeat; width: 270px;height:340px; border-radius:10px;position:relative;}
+.rnd03-02 ul .inner.bg01{background:url(../assets/rnd/rnd03-03.jpg) no-repeat; width: 270px;height:340px; border-radius:10px;position:relative;}
+.rnd03-02 ul .inner.bg02{background:url(../assets/rnd/rnd03-04.jpg) no-repeat; width: 270px;height:340px; border-radius:10px;position:relative;}
+.rnd03-02 ul .inner.bg03{background:url(../assets/rnd/rnd03-05.jpg) no-repeat; width: 270px;height:340px; border-radius:10px;position:relative;}
+.rnd03-02 ul .inner.bg04{background:url(../assets/rnd/rnd03-06.jpg) no-repeat; width: 270px;height:340px; border-radius:10px;position:relative;}
+.rnd03-02 ul .inner.bg05{background:url(../assets/rnd/rnd03-07.jpg) no-repeat; width: 270px;height:340px; border-radius:10px;position:relative;}
 .rnd03-02 ul .inner .txt{text-align:left; padding:20px; position:relative;}
 .rnd03-02 ul .inner .txt .hover{opacity:0;position:relative; transform:translateY(130px);}
 .rnd03-02 ul .inner:hover .hover{opacity:1; transition:.3s;}

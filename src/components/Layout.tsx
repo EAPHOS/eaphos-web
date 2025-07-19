@@ -5,6 +5,7 @@ import HeaderEN from '../pages/en/Header';
 import FooterEN from '../pages/en/Footer';
 import HeaderJP from '../pages/jp/Header';
 import FooterJP from '../pages/jp/Footer';
+import ScrollToTop from '../hooks/scrollToTop';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -32,6 +33,7 @@ const Layout = ({ children }: LayoutProps) => {
 
   return (
     <>
+      <ScrollToTop />
       <Header />
       <main>{children}</main>
       <Footer />

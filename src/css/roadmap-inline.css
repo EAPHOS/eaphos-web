@@ -2,160 +2,199 @@
 
 /* Roadmap 전용 인라인 텍스트 스타일 */
 .inline-title {
-white-space: nowrap;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 .inline-title span {
-display: inline;
-margin-left: 8px;
+  display: inline;
+  margin-left: 8px;
 }
 .inline-market {
-white-space: nowrap;
-font-weight: normal;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  font-weight: normal;
 }
 
 .img-2023 {
-max-height: 280px;
-width: auto;
-object-fit: contain;
-display: block;
-margin: 0 auto;
+  max-height: 280px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 .roadmap-img-wrap {
-height: 260px;
-overflow: hidden;
-display: flex;
-align-items: center;
-justify-content: center;
+  height: 260px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Year Swipe Area */
 .year-swipe-container {
-width: 100%;
-max-width: 1400px;
-margin: 0 auto 36px auto;
-padding: 0 60px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto 36px auto;
+  padding: 0 60px;
 }
 
 .year-selection {
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-position: relative;
-margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  margin: 0;
 }
 
 .year-item {
-flex: 1;
-text-align: left;
-font-size: 65px;
-font-weight: 650;
-color: #d1d1d1;
-cursor: pointer;
-position: relative;
-transition: color 0.2s;
+  flex: 1;
+  text-align: left;
+  font-size: 65px;
+  font-weight: 650;
+  color: #d1d1d1;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.2s;
 }
 
 .year-item.active {
-color: #484848;
+  color: #484848;
 }
 
 .year-line {
-position: absolute;
-left: 0;
-right: 0;
-bottom: -24px;
-height: 2px;
-background: #d3e1f5;
-border-radius: 2px;
-z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -24px;
+  height: 2px;
+  background: #d3e1f5;
+  border-radius: 2px;
+  z-index: 1;
 }
 
 .year-item.active .year-line {
-background: #156dc7;
+  background: #156dc7;
 }
 
 .year-dot {
-position: absolute;
-bottom: -31px;
-width: 16px;
-height: 16px;
-background: #fff;
-border-radius: 50%;
-border: 3px solid #90caf9;
-box-sizing: border-box;
-display: flex;
-align-items: center;
-justify-content: center;
-z-index: 2;
+  position: absolute;
+  bottom: -31px;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+  border: 3px solid #90caf9;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
 }
 
 .year-item:first-child .year-dot {
-left: -8px;
+  left: -8px;
 }
 
 .year-item:last-child .year-dot {
-right: -8px;
+  right: -8px;
 }
 
 .year-dot-inner {
-width: 8px;
-height: 8px;
-background: #156dc7;
-border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: #156dc7;
+  border-radius: 50%;
 }
 
 /* Year Content Boxes */
 .box {
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
-opacity: 0;
-transform: translateY(30px);
-transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.4s ease-in-out,
+    transform 0.4s ease-in-out;
 }
 
 .box.active {
-opacity: 1;
-transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .box_2024 .li_01,
 .box_2024 .li_02,
 .box_2024 .li_03,
 .box_2024 .li_04 {
-width: calc(50% - 10px);
-opacity: 0;
-transform: translateY(30px);
-transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+  width: calc(50% - 10px);
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.4s ease-in-out,
+    transform 0.4s ease-in-out;
 }
 
 .box_2024.active .li_01,
 .box_2024.active .li_02,
 .box_2024.active .li_03,
 .box_2024.active .li_04 {
-opacity: 1;
-transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .box_2024 .li_03,
 .box_2024 .li_04 {
-margin: 15px 0;
+  margin: 15px 0;
 }
 
 .box_2023 {
-margin: 40px 0 10px 0;
+  margin: 40px 0 10px 0;
 }
 
 .box_2023 > div {
-opacity: 0;
-transform: translateY(30px);
-transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.4s ease-in-out,
+    transform 0.4s ease-in-out;
 }
 
 .box_2023.active > div {
-opacity: 1;
-transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.rndSwiper .swiper-pagination-bullet {
+  width: 48%;
+  margin-left: 0 !important;
+}
+
+.rndSwiper .box {
+  flex-wrap: wrap;
+}
+
+.rndSwiper .box_2024 {
+  gap: 30px 20px;
+}
+
+.rndSwiper .box_2024 > div {
+  width: calc(50% - 10px);
+}
+
+.rndSwiper .box > div .res-img {
+  width: 100%;
+}
+
+.rndSwiper .box_2024 .txtdiv {
+  width: 100%;
+}
+
+.rndSwiper .box_2023 > div:first-child {
+  width: 50%;
 }
 
 @media (max-width: 900px) {
@@ -169,5 +208,51 @@ transform: translateY(0);
   .box_2024 {
     flex-direction: column;
     gap: 0;
+  }
+
+  /* 모바일에서 텍스트 줄바꿈 개선 */
+  .inline-title,
+  .inline-market {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  /* 모바일에서 제목 크기 조정 */
+  .rndSwiper .box h1 {
+    font-size: 28px !important;
+    line-height: 1.3 !important;
+  }
+
+  .rndSwiper .box h2 {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+  }
+
+  .rndSwiper .box h5 {
+    font-size: 15px !important;
+    line-height: 1.4 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* 더 작은 화면에서 추가 조정 */
+  .rndSwiper .box h1 {
+    font-size: 24px !important;
+    line-height: 1.2 !important;
+  }
+
+  .rndSwiper .box h2 {
+    font-size: 20px !important;
+    line-height: 1.2 !important;
+  }
+
+  .rndSwiper .box h5 {
+    font-size: 14px !important;
+    line-height: 1.3 !important;
+  }
+
+  .inline-title span {
+    margin-left: 4px !important;
   }
 }
