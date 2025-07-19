@@ -1,0 +1,119 @@
+/* 상단 비주얼 */
+.visual-top {
+  width: 100%;
+}
+.top-img {
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  display: block;
+}
+
+/* 여백 */
+.pdt40 { padding-top: 40px; }
+.pdt80 { padding-top: 80px; }
+.pdt100 { padding-top: 100px; }
+.pdb20 { padding-bottom: 20px; }
+.pdb40 { padding-bottom: 40px; }
+.pdb80 { padding-bottom: 80px; }
+
+/* 공통 container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.s-comm h1, .s-comm h3, .s-comm h4, .s-comm h5 {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* 기술 박스 영역 */
+.tech-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3px;
+  padding: 0;
+  list-style: none;
+}
+
+.tech-card {
+  flex: 0 0 calc(20% - 16px); /* 5개 정렬 */
+  background: #f1f8fd;
+  border-radius: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.tech-card:hover {
+  transform: translateY(-4px);
+}
+
+.box {
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.box .top img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.box h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0.5rem;
+  /* word-break: keep-all;
+  white-space: nowrap; */
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.box h2 {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+
+.box h3 {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+/* 반응형 처리 */
+@media (max-width: 1200px) {
+  .tech-card {
+    flex: 0 0 calc(33.33% - 16px); /* 3개 */
+  }
+}
+@media (max-width: 768px) {
+  .tech-card {
+    flex: 0 0 calc(50% - 16px); /* 2개 */
+  }
+}
+@media (max-width: 480px) {
+  .tech-card {
+    flex: 0 0 100%; /* 1개 */
+  }
+
+  .box .top img {
+    width: 48px;
+    height: 48px;
+  }
+}
