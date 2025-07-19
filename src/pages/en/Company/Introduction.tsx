@@ -1,40 +1,24 @@
-import React, { useEffect } from 'react';
-import comTop from '../../../assets/comTop.jpg';
 import com01_01 from '../../../assets/com01-01.jpg';
-import '../../../css/style.css';
-import '../../../css/eha.css';
+import PageNav from '../../../components/PageNav';
 
 const Introduction = () => {
-  useEffect(() => {
-    // Tab functionality implementation
-    const tabLinks = document.querySelectorAll('.tab-link');
-    const tabContents = document.querySelectorAll('.tab-content');
-
-    tabLinks.forEach(link => {
-      link.addEventListener('click', function (this: Element) {
-        const tabId = this.getAttribute('data-tab');
-
-        tabLinks.forEach(l => l.classList.remove('current'));
-        tabContents.forEach(c => c.classList.remove('current'));
-
-        this.classList.add('current');
-        document.getElementById(tabId || '')?.classList.add('current');
-      });
-    });
-
-    // Initialize first tab
-    const firstTab = document.querySelector('.tab-link');
-    if (firstTab) {
-      firstTab.classList.add('current');
-      const firstTabId = firstTab.getAttribute('data-tab');
-      if (firstTabId) {
-        document.getElementById(firstTabId)?.classList.add('current');
-      }
-    }
-  }, []);
-
   return (
     <>
+      <PageNav
+        title='About us'
+        parentTitle='Company'
+        parentPath='/en/company/introduction'
+        siblings={[
+          { title: 'About us', path: '/en/company/introduction' },
+          {
+            title: 'Certification and Intellectual Property',
+            path: '/en/company/certification',
+          },
+          { title: 'Investment Company', path: '/en/company/investors' },
+        ]}
+        imageClass='comTop'
+      />
+
       {/* Company Description */}
       <div className='s-comm container'>
         <h1 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>

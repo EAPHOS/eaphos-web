@@ -10,12 +10,24 @@
 }
 
 /* 여백 */
-.pdt40 { padding-top: 40px; }
-.pdt80 { padding-top: 80px; }
-.pdt100 { padding-top: 100px; }
-.pdb20 { padding-bottom: 20px; }
-.pdb40 { padding-bottom: 40px; }
-.pdb80 { padding-bottom: 80px; }
+.pdt40 {
+  padding-top: 40px;
+}
+.pdt80 {
+  padding-top: 80px;
+}
+.pdt100 {
+  padding-top: 100px;
+}
+.pdb20 {
+  padding-bottom: 20px;
+}
+.pdb40 {
+  padding-bottom: 40px;
+}
+.pdb80 {
+  padding-bottom: 80px;
+}
 
 /* 공통 container */
 .container {
@@ -23,7 +35,10 @@
   margin: 0 auto;
   padding: 0 20px;
 }
-.s-comm h1, .s-comm h3, .s-comm h4, .s-comm h5 {
+.s-comm h1,
+.s-comm h3,
+.s-comm h4,
+.s-comm h5 {
   line-height: 1.5;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -85,7 +100,6 @@
   overflow-wrap: break-word;
   word-break: break-word;
 }
-
 
 .box h3 {
   font-size: 0.85rem;

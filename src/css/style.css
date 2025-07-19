@@ -512,6 +512,7 @@ sub {
 }
 .s-top .s-txt h5 a {
   margin-right: 15px;
+  color: inherit;
 }
 .s-top .s-txt h1 {
   font-size: 50px;
@@ -557,25 +558,25 @@ sub {
   margin-bottom: 80px;
 }
 .s-top .comTop {
-  background: url(/kr/img/com/comTop.jpg) no-repeat;
+  background: url(/src/assets/comTop.jpg) no-repeat;
   padding: 100px 0 200px 0;
   margin-top: 40px;
   background-size: cover;
 }
 .s-top .rndTop {
-  background: url(/kr/img/rnd/rndTop.jpg) no-repeat;
+  background: url(/src/assets/rndTop.jpg) no-repeat;
   padding: 100px 0 200px 0;
   margin-top: 40px;
   background-size: cover;
 }
 .s-top .proTop {
-  background: url(/kr/img/pro/proTop.jpg) no-repeat;
+  background: url(/src/assets/proTop.jpg) no-repeat;
   padding: 100px 0 200px 0;
   margin-top: 40px;
   background-size: cover;
 }
 .s-top .notTop {
-  background: url(/kr/img/notTop.jpg) no-repeat;
+  background: url(/src/assets/notTop.jpg) no-repeat;
   padding: 100px 0 200px 0;
   margin-top: 40px;
   background-size: cover;

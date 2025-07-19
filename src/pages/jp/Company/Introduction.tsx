@@ -1,40 +1,24 @@
-import React, { useEffect } from 'react';
-import comTop from '../../../assets/comTop.jpg';
 import com01_01 from '../../../assets/com01-01.jpg';
-import '../../../css/style.css';
-import '../../../css/eha.css';
+import PageNav from '../../../components/PageNav';
 
 const Introduction = () => {
-  useEffect(() => {
-    // タブ機能の実装
-    const tabLinks = document.querySelectorAll('.tab-link');
-    const tabContents = document.querySelectorAll('.tab-content');
-
-    tabLinks.forEach(link => {
-      link.addEventListener('click', function (this: Element) {
-        const tabId = this.getAttribute('data-tab');
-
-        tabLinks.forEach(l => l.classList.remove('current'));
-        tabContents.forEach(c => c.classList.remove('current'));
-
-        this.classList.add('current');
-        document.getElementById(tabId || '')?.classList.add('current');
-      });
-    });
-
-    // 最初のタブを初期化
-    const firstTab = document.querySelector('.tab-link');
-    if (firstTab) {
-      firstTab.classList.add('current');
-      const firstTabId = firstTab.getAttribute('data-tab');
-      if (firstTabId) {
-        document.getElementById(firstTabId)?.classList.add('current');
-      }
-    }
-  }, []);
-
   return (
     <>
+      <PageNav
+        title='会社紹介'
+        parentTitle='Company'
+        parentPath='/jp/company/introduction'
+        siblings={[
+          { title: '会社紹介', path: '/jp/company/introduction' },
+          {
+            title: '認証及び知的財産',
+            path: '/jp/company/certification',
+          },
+          { title: '投資会社', path: '/jp/company/investors' },
+        ]}
+        imageClass='comTop'
+      />
+
       {/* 会社説明 */}
       <div className='s-comm container'>
         <h1 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>

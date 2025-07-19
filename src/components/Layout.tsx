@@ -33,7 +33,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Header />
-      <main style={{ paddingTop: '80px' }}>{children}</main>
+      <main>{children}</main>
       <Footer />
     </>
   );
