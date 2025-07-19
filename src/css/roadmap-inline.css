@@ -1,0 +1,173 @@
+/* roadmap-inline.css */
+
+/* Roadmap 전용 인라인 텍스트 스타일 */
+.inline-title {
+white-space: nowrap;
+}
+.inline-title span {
+display: inline;
+margin-left: 8px;
+}
+.inline-market {
+white-space: nowrap;
+font-weight: normal;
+}
+
+.img-2023 {
+max-height: 280px;
+width: auto;
+object-fit: contain;
+display: block;
+margin: 0 auto;
+}
+
+.roadmap-img-wrap {
+height: 260px;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Year Swipe Area */
+.year-swipe-container {
+width: 100%;
+max-width: 1400px;
+margin: 0 auto 36px auto;
+padding: 0 60px;
+}
+
+.year-selection {
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+position: relative;
+margin: 0;
+}
+
+.year-item {
+flex: 1;
+text-align: left;
+font-size: 65px;
+font-weight: 650;
+color: #d1d1d1;
+cursor: pointer;
+position: relative;
+transition: color 0.2s;
+}
+
+.year-item.active {
+color: #484848;
+}
+
+.year-line {
+position: absolute;
+left: 0;
+right: 0;
+bottom: -24px;
+height: 2px;
+background: #d3e1f5;
+border-radius: 2px;
+z-index: 1;
+}
+
+.year-item.active .year-line {
+background: #156dc7;
+}
+
+.year-dot {
+position: absolute;
+bottom: -31px;
+width: 16px;
+height: 16px;
+background: #fff;
+border-radius: 50%;
+border: 3px solid #90caf9;
+box-sizing: border-box;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 2;
+}
+
+.year-item:first-child .year-dot {
+left: -8px;
+}
+
+.year-item:last-child .year-dot {
+right: -8px;
+}
+
+.year-dot-inner {
+width: 8px;
+height: 8px;
+background: #156dc7;
+border-radius: 50%;
+}
+
+/* Year Content Boxes */
+.box {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+opacity: 0;
+transform: translateY(30px);
+transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.box.active {
+opacity: 1;
+transform: translateY(0);
+}
+
+.box_2024 .li_01,
+.box_2024 .li_02,
+.box_2024 .li_03,
+.box_2024 .li_04 {
+width: calc(50% - 10px);
+opacity: 0;
+transform: translateY(30px);
+transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.box_2024.active .li_01,
+.box_2024.active .li_02,
+.box_2024.active .li_03,
+.box_2024.active .li_04 {
+opacity: 1;
+transform: translateY(0);
+}
+
+.box_2024 .li_03,
+.box_2024 .li_04 {
+margin: 15px 0;
+}
+
+.box_2023 {
+margin: 40px 0 10px 0;
+}
+
+.box_2023 > div {
+opacity: 0;
+transform: translateY(30px);
+transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.box_2023.active > div {
+opacity: 1;
+transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  .box_2024 .li_01,
+  .box_2024 .li_02,
+  .box_2024 .li_03,
+  .box_2024 .li_04 {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  .box_2024 {
+    flex-direction: column;
+    gap: 0;
+  }
+}
