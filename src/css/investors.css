@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+  .com04 ul li {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .com04 ul li {
+    width: 100%;
+  }
+}
