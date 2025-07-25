@@ -112,7 +112,7 @@ const Header = () => {
               onMouseLeave={handleMegaMenuLeave}
             >
               <Link to='/jp/company/introduction' className='big-m'>
-                Comapny
+                Company
               </Link>
               <div
                 className={`mega-menu-dropdown-content ${activeMegaMenu === 'company' ? 'show' : ''}`}
