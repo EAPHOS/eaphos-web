@@ -29,19 +29,19 @@ const SolventExtractant = () => {
         <ul>
           <li>
             <p>
-              <img src='/src/assets/pro02-01.png' alt='' />
+              <img src='/assets/pro02-01.png' alt='' />
             </p>
             <h5>Co 추출제 (THORE-PHOS SOLEX 272)</h5>
           </li>
           <li>
             <p>
-              <img src='/src/assets/pro02-02.png' alt='' />
+              <img src='/assets/pro02-02.png' alt='' />
             </p>
             <h5>Mn 추출제 (THORE-PHOS SOLEX 507)</h5>
           </li>
           <li>
             <p>
-              <img src='/src/assets/pro02-03.png' alt='' />
+              <img src='/assets/pro02-03.png' alt='' />
             </p>
             <h5>Li 추출제 (THORE-PHOS SOLEX Li)</h5>
           </li>
@@ -58,19 +58,19 @@ const SolventExtractant = () => {
         <ul>
           <li>
             <p>
-              <img src='/src/assets/pro02-04.png' alt='' />
+              <img src='/assets/pro02-04.png' alt='' />
             </p>
             <h5>Fe,V,Zn, Mn제거 (THOE-PHOS SOLEX 204)</h5>
           </li>
           <li>
             <p>
-              <img src='/src/assets/pro02-05.png' alt='' />
+              <img src='/assets/pro02-05.png' alt='' />
             </p>
             <h5>Cu 제거</h5>
           </li>
           <li>
             <p>
-              <img src='/src/assets/pro02-06.png' alt='' />
+              <img src='/assets/pro02-06.png' alt='' />
             </p>
             <h5>Al 제거 (2025년 출시 예정)</h5>
           </li>

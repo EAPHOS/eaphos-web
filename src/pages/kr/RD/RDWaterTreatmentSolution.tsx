@@ -1,11 +1,11 @@
 import PageNav from '../../../components/PageNav';
-import Img01 from '../../../assets/rnd03-01_kr.png';
-import Img02 from '../../../assets/rnd03-02_kr.jpg';
-import Icon01 from '../../../assets/rnd03-08.png';
-import Icon02 from '../../../assets/rnd03-09_kr.png';
-import Icon03 from '../../../assets/rnd03-10_kr.png';
-import Icon04 from '../../../assets/rnd03-11_kr.png';
-import Icon05 from '../../../assets/rnd03-12.png';
+import Img01 from '/assets/rnd03-01_kr.png';
+import Img02 from '/assets/rnd03-02_kr.jpg';
+import Icon01 from '/assets/rnd03-08.png';
+import Icon02 from '/assets/rnd03-09_kr.png';
+import Icon03 from '/assets/rnd03-10_kr.png';
+import Icon04 from '/assets/rnd03-11_kr.png';
+import Icon05 from '/assets/rnd03-12.png';
 
 type TechItem = {
   img: string;

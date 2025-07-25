@@ -61,7 +61,7 @@ const EnergySystem = () => {
           <li>
             <p className='center'>
               <img
-                src='/src/assets/pro04-01.png'
+                src='/assets/pro04-01.png'
                 alt='Energy System Diagram'
                 className='res-img'
               />
@@ -79,7 +79,7 @@ const EnergySystem = () => {
         <div className='pdb40'></div>
         <p>
           <img
-            src='/src/assets/pro04-03_en.png'
+            src='/assets/pro04-03_en.png'
             alt='Overall Configuration of PCS Fault Current Limiter Equipment'
             className='res-img'
           />
@@ -97,7 +97,7 @@ const EnergySystem = () => {
         <div className='pdb40'></div>
         <p>
           <img
-            src='/src/assets/pro04-02_en.png'
+            src='/assets/pro04-02_en.png'
             alt='PCS Fault Current Limiter Test Main Circuit Configuration'
             className='res-img'
           />

@@ -36,7 +36,7 @@ const RDAnodeMaterial = () => {
           <div className='pdb20'></div>
           <p>
             <img
-              src='/src/assets/pro00-01.jpg'
+              src='/assets/pro00-01.jpg'
               className='res-img'
               alt='anode-material'
             />
@@ -50,7 +50,7 @@ const RDAnodeMaterial = () => {
             </h4>
             <p>
               <img
-                src='/src/assets/pro00-02.png'
+                src='/assets/pro00-02.png'
                 className='res-img'
                 alt='conductivity-comparison'
               />
@@ -63,14 +63,14 @@ const RDAnodeMaterial = () => {
               as being similar to cation ion exchange resin.
             </h5>
             <p className='center'>
-              <img src='/src/assets/pro00-03.png' alt='PSS' />
+              <img src='/assets/pro00-03.png' alt='PSS' />
             </p>
           </li>
         </ul>
         <div className='pdb50'></div>
         <p className='center'>
           <img
-            src='/src/assets/pro00-04.png'
+            src='/assets/pro00-04.png'
             className='res-img'
             alt='faster-charging'
           />

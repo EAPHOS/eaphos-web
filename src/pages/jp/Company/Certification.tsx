@@ -30,7 +30,7 @@ const Certification = () => {
           <li>
             <p>
               <img
-                src='/src/assets/com03-01.png'
+                src='/assets/com03-01.png'
                 alt='품질경영시스템 인증서'
                 className='res-img'
               />
@@ -40,7 +40,7 @@ const Certification = () => {
           <li>
             <p>
               <img
-                src='/src/assets/com03-02.png'
+                src='/assets/com03-02.png'
                 alt='환경경영시스템 인증서'
                 className='res-img'
               />
@@ -50,7 +50,7 @@ const Certification = () => {
           <li>
             <p>
               <img
-                src='/src/assets/com03-03.png'
+                src='/assets/com03-03.png'
                 alt='안전보건경영시스템 인증서'
                 className='res-img'
               />
@@ -60,7 +60,7 @@ const Certification = () => {
           <li>
             <p>
               <img
-                src='/src/assets/com03-04.png'
+                src='/assets/com03-04.png'
                 alt='대한민국 녹색 에너지 대상'
                 className='res-img'
               />
@@ -73,7 +73,7 @@ const Certification = () => {
           <li>
             <p>
               <img
-                src='/src/assets/com03-05.png'
+                src='/assets/com03-05.png'
                 alt='2023년 우수자문 중소기업'
                 className='res-img'
               />
@@ -83,7 +83,7 @@ const Certification = () => {
           <li>
             <p>
               <img
-                src='/src/assets/com03-06.png'
+                src='/assets/com03-06.png'
                 alt='2023년 Premium K-Textile'
                 className='res-img'
               />

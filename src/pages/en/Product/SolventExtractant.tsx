@@ -35,19 +35,19 @@ const SolventExtractant = () => {
         <ul>
           <li>
             <p>
-              <img src='/src/assets/pro02-01.png' alt='' />
+              <img src='/assets/pro02-01.png' alt='' />
             </p>
             <h5>Co Extractant (THORE-PHOS SOLEX 272)</h5>
           </li>
           <li>
             <p>
-              <img src='/src/assets/pro02-02.png' alt='' />
+              <img src='/assets/pro02-02.png' alt='' />
             </p>
             <h5>Mn Extractant (THORE-PHOS SOLEX 507)</h5>
           </li>
           <li>
             <p>
-              <img src='/src/assets/pro02-03.png' alt='' />
+              <img src='/assets/pro02-03.png' alt='' />
             </p>
             <h5>Li Extractant (THORE-PHOS SOLEX Li)</h5>
           </li>
@@ -64,19 +64,19 @@ const SolventExtractant = () => {
         <ul>
           <li>
             <p>
-              <img src='/src/assets/pro02-04.png' alt='' />
+              <img src='/assets/pro02-04.png' alt='' />
             </p>
             <h5>Fe, V, Zn, Mn Removal (THOE-PHOS SOLEX 204)</h5>
           </li>
           <li>
             <p>
-              <img src='/src/assets/pro02-05.png' alt='' />
+              <img src='/assets/pro02-05.png' alt='' />
             </p>
             <h5>Cu Removal</h5>
           </li>
           <li>
             <p>
-              <img src='/src/assets/pro02-06.png' alt='' />
+              <img src='/assets/pro02-06.png' alt='' />
             </p>
             <h5>Al Removal (To be released in 2025)</h5>
           </li>

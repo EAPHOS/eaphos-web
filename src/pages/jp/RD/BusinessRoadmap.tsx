@@ -1,10 +1,10 @@
 // BusinessRoadmap.jsx
 import { useState } from 'react';
-import rnd0101 from '../../../assets/rnd01-01.jpg';
-import rnd0102 from '../../../assets/rnd01-02.jpg';
-import rnd0103 from '../../../assets/rnd01-03.jpg';
-import rnd0104 from '../../../assets/rnd01-04.jpg';
-import rnd0105 from '../../../assets/rnd01-05.jpg';
+import rnd0101 from '/assets/rnd01-01.jpg';
+import rnd0102 from '/assets/rnd01-02.jpg';
+import rnd0103 from '/assets/rnd01-03.jpg';
+import rnd0104 from '/assets/rnd01-04.jpg';
+import rnd0105 from '/assets/rnd01-05.jpg';
 import PageNav from '../../../components/PageNav';
 
 const BusinessRoadmap = () => {

@@ -5,19 +5,19 @@ const Investors = () => {
   const investors = [
     {
       name: '코오롱인베스트먼트',
-      image: '/src/assets/com04-01.png',
+      image: '/assets/com04-01.png',
     },
     {
       name: '블리스바인',
-      image: '/src/assets/com04-04.png',
+      image: '/assets/com04-04.png',
     },
     {
       name: '슈미트',
-      image: '/src/assets/com04-05.png',
+      image: '/assets/com04-05.png',
     },
     {
       name: '경기 창조경제혁신센터',
-      image: '/src/assets/com04-07.png',
+      image: '/assets/com04-07.png',
     },
   ];
 

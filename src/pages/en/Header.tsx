@@ -101,7 +101,7 @@ const Header = () => {
       <div className='wix-section header-pc rela'>
         <span className='wix-logo'>
           <Link to='/en'>
-            <img src='/src/assets/logo.png' alt='logo' />
+            <img src='/assets/logo.png' alt='logo' />
           </Link>
         </span>
         <div className='wix-custom-component'>
@@ -305,7 +305,7 @@ const Header = () => {
       {/* mobheader */}
       <div className='mob-logo'>
         <Link to='/en'>
-          <img src='/src/assets/logo.png' alt='logo' />
+          <img src='/assets/logo.png' alt='logo' />
         </Link>
       </div>
       <div className='right-header'>
@@ -368,7 +368,7 @@ const Header = () => {
 
             <div className='rt'>
               <p className='rt-hd-logo on'>
-                <img src='/src/assets/logo.png' alt='' />
+                <img src='/assets/logo.png' alt='' />
               </p>
               <ul className='lang'>
                 <li>

@@ -56,7 +56,7 @@ const WaterTreatmentSolution = () => {
           </li>
           <li>
             <p className='center'>
-              <img src='/src/assets/pro03-01.png' alt='polyketone' />
+              <img src='/assets/pro03-01.png' alt='polyketone' />
             </p>
           </li>
         </ul>
@@ -78,7 +78,7 @@ const WaterTreatmentSolution = () => {
         <div className='pdt30'></div>
         <p className='center'>
           <img
-            src='/src/assets/pro03-02_en.png'
+            src='/assets/pro03-02_en.png'
             alt='ion-exchange-resin'
             className='res-img'
           />
@@ -86,7 +86,7 @@ const WaterTreatmentSolution = () => {
         <div className='pdt50'></div>
         <p className='center'>
           <img
-            src='/src/assets/pro03-03.jpg'
+            src='/assets/pro03-03.jpg'
             alt='IER charge density and polymer oxidation diagram'
             className='res-img'
           />

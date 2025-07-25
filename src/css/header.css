@@ -31,7 +31,7 @@
   height: 48px;
 }
 .nav-logo {
-  background: url(/src/assets/logo.png) center center no-repeat;
+  background: url(/assets/logo.png) center center no-repeat;
   width: 51%;
   height: 53px;
   position: absolute;
@@ -288,11 +288,11 @@
   align-items: flex-start;
 }
 .right-header .inner-div .lt .lt01 {
-  background: url(/src/assets/mob-b.jpg) no-repeat;
+  background: url(/assets/mob-b.jpg) no-repeat;
   padding: 100px 0px 600px 50px;
 }
 .right-header .inner-div .lt .lt02 {
-  background: url(/src/assets/mob-b02.jpg) no-repeat;
+  background: url(/assets/mob-b02.jpg) no-repeat;
   padding: 100px 0px 600px 50px;
 }
 .right-header .inner-div .mobhSwiper .swiper-wrapper {
@@ -454,7 +454,7 @@
 .lnb-btn {
   padding-top: 0px;
   font-weight: 900;
-  background: url(/src/assets/lang.png) no-repeat #e6e6e6;
+  background: url(/assets/lang.png) no-repeat #e6e6e6;
   background-position: 20%;
 }
 .lnb-btn .dropdown:focus {

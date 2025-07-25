@@ -51,7 +51,7 @@ const EnergySystem = () => {
           <li>
             <p className='center'>
               <img
-                src='/src/assets/pro04-01.png'
+                src='/assets/pro04-01.png'
                 alt='energy-system'
                 className='res-img'
               />
@@ -66,7 +66,7 @@ const EnergySystem = () => {
         <div className='pdb40'></div>
         <p>
           <img
-            src='/src/assets/pro04-03.png'
+            src='/assets/pro04-03.png'
             alt='Overall Configuation of PCS'
             className='res-img'
           />
@@ -78,7 +78,7 @@ const EnergySystem = () => {
         <div className='pdb40'></div>
         <p>
           <img
-            src='/src/assets/pro04-02.png'
+            src='/assets/pro04-02.png'
             alt='PPCS and Main Sequence'
             className='res-img'
           />

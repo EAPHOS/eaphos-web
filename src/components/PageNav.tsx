@@ -22,7 +22,7 @@ const PageNav = ({
       <div className='s-txt container'>
         <h5>
           <Link to='/'>
-            <img src='/src/assets/home.png' alt='' title='' />
+            <img src='/assets/home.png' alt='' title='' />
           </Link>
           {' > '}&nbsp;
           <Link to={parentPath}>{parentTitle}</Link>

@@ -1,4 +1,4 @@
-import com01_01 from '../../../assets/com01-01.jpg';
+import com01_01 from '/assets/com01-01.jpg';
 import PageNav from '../../../components/PageNav';
 
 const Introduction = () => {

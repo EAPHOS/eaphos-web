@@ -10,7 +10,7 @@ const Footer = () => {
               <ul className='inner'>
                 <li>
                   <Link to='/kr'>
-                    <img src='/src/assets/ft-logo.png' alt='' />
+                    <img src='/assets/ft-logo.png' alt='' />
                   </Link>
                 </li>
                 <li>

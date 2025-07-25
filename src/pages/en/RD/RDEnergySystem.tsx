@@ -58,7 +58,7 @@ const RDEnergySystem = () => {
           <li className='responsive-image'>
             <p className='center'>
               <img
-                src='/src/assets/rd-energy01.png'
+                src='/assets/rd-energy01.png'
                 alt='Energy Storage System Research'
                 className='res-img responsive-img'
               />
@@ -76,7 +76,7 @@ const RDEnergySystem = () => {
         <div className='pdb40'></div>
         <p className='responsive-image-container'>
           <img
-            src='/src/assets/rd-energy02.png'
+            src='/assets/rd-energy02.png'
             alt='DC Grid Fault Current Limiter'
             className='res-img responsive-img'
           />

@@ -3,19 +3,19 @@ const Investors = () => {
   const investors = [
     {
       name: 'Kolon Investment',
-      image: '/src/assets/com04-01.png',
+      image: '/assets/com04-01.png',
     },
     {
       name: 'BLISSVINE VENTURES',
-      image: '/src/assets/com04-04.png',
+      image: '/assets/com04-04.png',
     },
     {
       name: 'Schmidt',
-      image: '/src/assets/com04-05.png',
+      image: '/assets/com04-05.png',
     },
     {
       name: 'Gyeonggi Center for Creative Economy & Innovation',
-      image: '/src/assets/com04-07.png',
+      image: '/assets/com04-07.png',
     },
   ];
 

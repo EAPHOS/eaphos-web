@@ -1,14 +1,14 @@
 import PageNav from '../../../components/PageNav';
 
-import rnd0201Img from '../../../assets/rnd02-01.png';
-import rnd0200Img from '../../../assets/rnd02-00.png';
-import rnd02000Img from '../../../assets/rnd02-000.png';
-import rnd02001Img from '../../../assets/rnd02-001.png';
-import rnd0212Img from '../../../assets/rnd02-12.png';
-import rnd0202Img from '../../../assets/rnd02-02.png';
-import rnd0204Img from '../../../assets/rnd02-04.png';
-import rnd0208Img from '../../../assets/rnd02-08.jpg';
-import rnd0210Img from '../../../assets/rnd02-10.jpg';
+import rnd0201Img from '/assets/rnd02-01.png';
+import rnd0200Img from '/assets/rnd02-00.png';
+import rnd02000Img from '/assets/rnd02-000.png';
+import rnd02001Img from '/assets/rnd02-001.png';
+import rnd0212Img from '/assets/rnd02-12.png';
+import rnd0202Img from '/assets/rnd02-02.png';
+import rnd0204Img from '/assets/rnd02-04.png';
+import rnd0208Img from '/assets/rnd02-08.jpg';
+import rnd0210Img from '/assets/rnd02-10.jpg';
 
 const RDSolventExtractant = () => {
   return (
