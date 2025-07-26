@@ -952,12 +952,13 @@ sub {
   padding-left: 30px;
 }
 .com03 ul h6::after {
-  position: absolute;
   content: '';
-  width: 3px;
-  height: 100%;
-  background: #166ec8;
+  position: absolute;
   left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #166ec8;
 }
 
 .rnd02 {
@@ -1240,22 +1241,26 @@ sub {
   width: 23%;
 }
 .com04 h6 {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 700;
   color: #333;
   margin-top: 20px;
   position: relative;
   text-align: left;
   padding-left: 30px;
+  line-height: 1.5;
 }
+
 .com04 h6::after {
-  position: absolute;
   content: '';
-  width: 3px;
-  height: 100%;
-  background: #166ec8;
+  position: absolute;
   left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #166ec8;
 }
+
 .pro01-bg {
   background: #f8fbff;
   padding: 50px 0 100px 0;
