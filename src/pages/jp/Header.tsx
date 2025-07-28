@@ -372,15 +372,15 @@ const Header = () => {
               </p>
               <ul className='lang'>
                 <li>
-                  <Link to='/jp' className='on'>
-                    JP
-                  </Link>
-                </li>
-                <li>
                   <Link to='/kr'>KR</Link>
                 </li>
                 <li>
                   <Link to='/en'>EN</Link>
+                </li>
+                <li>
+                  <Link to='/jp' className='on'>
+                    JP
+                  </Link>
                 </li>
               </ul>
               <ul className='menu'>

@@ -372,12 +372,12 @@ const Header = () => {
               </p>
               <ul className='lang'>
                 <li>
-                  <Link to='/kr' className='on'>
-                    KR
-                  </Link>
+                  <Link to='/kr'>KR</Link>
                 </li>
                 <li>
-                  <Link to='/en'>EN</Link>
+                  <Link to='/en' className='on'>
+                    EN
+                  </Link>
                 </li>
                 <li>
                   <Link to='/jp'>JP</Link>
