@@ -56,7 +56,7 @@ const Home = () => {
           }}
         >
           <div>
-            <div className='txt'>
+            <div className='txt jp-txt'>
               <h2>環境にやさしく効率的な鉱物資源確保のための</h2>
               <h3>二次電池化学専門トータル・ソリューション</h3>
             </div>
@@ -74,7 +74,7 @@ const Home = () => {
           }}
         >
           <div>
-            <div className='txt'>
+            <div className='txt jp-txt'>
               <h2>環境にやさしく効率的な鉱物資源確保のための</h2>
               <h3>二次電池化学専門トータル・ソリューション</h3>
             </div>
@@ -92,7 +92,7 @@ const Home = () => {
           }}
         >
           <div>
-            <div className='txt'>
+            <div className='txt jp-txt'>
               <h2 className='swiper-title'>
                 環境にやさしく効率的な鉱物資源確保のための
               </h2>
@@ -135,21 +135,23 @@ const Home = () => {
             prevEl: '.swiper-button-prev',
           }}
         >
-          <SwiperSlide className='main01-05' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/anode-material')}
-            >
+          <SwiperSlide
+            className='main01-05'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/jp/product/anode-material')}
+          >
+            <div className='txt'>
               <h2>陰極材用素材</h2>
               <h3>FOR THE FASTER CHARGING</h3>
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-01' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/industrial-detergent')}
-            >
+          <SwiperSlide
+            className='main01-01'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/jp/product/industrial-detergent')}
+          >
+            <div className='txt'>
               <h2>
                 半導体及び <br />
                 ディスプレイ素材
@@ -158,31 +160,34 @@ const Home = () => {
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-02' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/water-treatment-solution')}
-            >
+          <SwiperSlide
+            className='main01-02'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/jp/product/water-treatment-solution')}
+          >
+            <div className='txt'>
               <h2>水処理・ソリューション</h2>
               <h3>CLEANTOP WWT</h3>
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-03' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/energy-system')}
-            >
+          <SwiperSlide
+            className='main01-03'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/jp/product/energy-system')}
+          >
+            <div className='txt'>
               <h2>エネルギー・システム</h2>
               <h3>DC System</h3>
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-04' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/solvent-extraction')}
-            >
+          <SwiperSlide
+            className='main01-04'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/jp/product/solvent-extractant')}
+          >
+            <div className='txt'>
               <h2>溶媒抽出剤</h2>
               <h3>THOREPHOS SOLEX</h3>
             </div>

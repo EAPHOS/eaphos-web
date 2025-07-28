@@ -92,7 +92,7 @@ video {
   vertical-align: baseline;
   text-decoration: none;
   color: inherit;
-  word-break: keep-all !important;
+  /* word-break: keep-all !important; */
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -123,7 +123,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {

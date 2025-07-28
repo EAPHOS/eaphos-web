@@ -5,6 +5,7 @@ import './css/eha.css';
 import './css/header.css';
 import './css/style.css';
 import './css/roadmap-inline.css';
+import './css/homeTitle.css';
 // Swiper CSS
 import 'swiper/css';
 import 'swiper/css/effect-fade';

@@ -1,0 +1,35 @@
+.mainSwiper .jp-txt h3 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.mainSwiper .jp-txt h2 {
+  font-size: 40px;
+}
+
+.mainSwiper .en-txt h3 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.mainSwiper .en-txt h2 {
+  font-size: 40px;
+}
+
+@media (max-width: 748px) {
+  .mainSwiper .en-txt h3 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .mainSwiper .en-txt h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .mainSwiper .jp-txt h3 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .mainSwiper .jp-txt h2 {
+    font-size: 25px;
+  }
+}

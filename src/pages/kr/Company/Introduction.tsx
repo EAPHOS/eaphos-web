@@ -1,7 +1,25 @@
+import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import com01_01 from '/assets/com01-01.jpg';
 import PageNav from '../../../components/PageNav';
 
 const Introduction = () => {
+  const [tab, setTab] = useState<1 | 2>(1);
+  const location = useLocation();
+
+  useEffect(() => {
+    const newTab = location.hash === '#tab-2' ? 2 : 1;
+    if (newTab !== tab) {
+      const currentScrollY = window.scrollY;
+      setTab(newTab);
+      requestAnimationFrame(() => {
+        window.scrollTo(0, currentScrollY);
+      });
+    } else {
+      setTab(newTab);
+    }
+  }, [location, tab]);
+
   return (
     <>
       <PageNav
@@ -82,7 +100,7 @@ const Introduction = () => {
       {/* Company Location Section */}
       <section className='container com01-01'>
         <div className='tabBox tab-comm'>
-          <a href='#tab-1' className='on'>
+          <Link to='#tab-1' className={tab !== 2 ? 'on' : ''}>
             <p
               className='tab-link current'
               data-tab='tab-1'
@@ -90,8 +108,8 @@ const Introduction = () => {
             >
               회사 본사 및 연구소
             </p>
-          </a>
-          <a href='#tab-2'>
+          </Link>
+          <Link to='#tab-2' className={tab === 2 ? 'on' : ''}>
             <p
               className='tab-link'
               data-tab='tab-2'
@@ -99,13 +117,13 @@ const Introduction = () => {
             >
               생산 및 물류창고
             </p>
-          </a>
+          </Link>
         </div>
 
         <div
           id='tab-1'
           className='tab-content current'
-          style={{ display: 'block' }}
+          style={{ display: tab !== 2 ? 'block' : 'none' }}
         >
           <h5 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>
             <span>본사</span> : 경기도 안산시 상록구 한양대학교 55 창업보육센터
@@ -126,7 +144,11 @@ const Introduction = () => {
           ></iframe>
         </div>
 
-        <div id='tab-2' className='tab-content' style={{ display: 'none' }}>
+        <div
+          id='tab-2'
+          className='tab-content'
+          style={{ display: tab === 2 ? 'block' : 'none' }}
+        >
           <h5 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>
             <span>생산 및 물류 창고</span> : 경기도 화성시 전곡산단11길 43
           </h5>

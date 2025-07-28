@@ -1,7 +1,25 @@
+import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import com01_01 from '/assets/com01-01.jpg';
 import PageNav from '../../../components/PageNav';
 
 const Introduction = () => {
+  const [tab, setTab] = useState<1 | 2>(1);
+  const location = useLocation();
+
+  useEffect(() => {
+    const newTab = location.hash === '#tab-2' ? 2 : 1;
+    if (newTab !== tab) {
+      const currentScrollY = window.scrollY;
+      setTab(newTab);
+      requestAnimationFrame(() => {
+        window.scrollTo(0, currentScrollY);
+      });
+    } else {
+      setTab(newTab);
+    }
+  }, [location, tab]);
+
   return (
     <>
       <PageNav
@@ -89,7 +107,7 @@ const Introduction = () => {
       {/* 会社所在地セクション */}
       <section className='container com01-01'>
         <div className='tabBox tab-comm'>
-          <a href='#tab-1' className='on'>
+          <a href='#tab-1' className={tab !== 2 ? 'on' : ''}>
             <p
               className='tab-link current'
               data-tab='tab-1'
@@ -98,7 +116,7 @@ const Introduction = () => {
               会社の本社及び研究所
             </p>
           </a>
-          <a href='#tab-2'>
+          <a href='#tab-2' className={tab === 2 ? 'on' : ''}>
             <p
               className='tab-link'
               data-tab='tab-2'
@@ -112,7 +130,7 @@ const Introduction = () => {
         <div
           id='tab-1'
           className='tab-content current'
-          style={{ display: 'block' }}
+          style={{ display: tab !== 2 ? 'block' : 'none' }}
         >
           <h5 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>
             <span>本社</span> : Inside Business Incubator, 55 Hanyang
@@ -133,7 +151,11 @@ const Introduction = () => {
           ></iframe>
         </div>
 
-        <div id='tab-2' className='tab-content' style={{ display: 'none' }}>
+        <div
+          id='tab-2'
+          className='tab-content'
+          style={{ display: tab === 2 ? 'block' : 'none' }}
+        >
           <h5 style={{ fontFamily: 'Noto Sans KR, sans-serif' }}>
             <span>生産及び物流倉庫</span> : 43 Jeongoksandan 11-gil,
             Seosin-myeon, Hwaseong-si, Gyeonggi-do

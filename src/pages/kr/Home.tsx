@@ -136,21 +136,23 @@ const Home = () => {
             prevEl: '.swiper-button-prev',
           }}
         >
-          <SwiperSlide className='main01-05' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/anode-material')}
-            >
+          <SwiperSlide
+            className='main01-05'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/kr/product/anode-material')}
+          >
+            <div className='txt'>
               <h2>음극재용 소재</h2>
               <h3>FOR THE FASTER CHARGING</h3>
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-01' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/industrial-detergent')}
-            >
+          <SwiperSlide
+            className='main01-01'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/kr/product/industrial-detergent')}
+          >
+            <div className='txt'>
               <h2>
                 반도체 및 <br />
                 디스플레이 소재
@@ -159,31 +161,34 @@ const Home = () => {
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-02' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/water-treatment-solution')}
-            >
+          <SwiperSlide
+            className='main01-02'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/kr/product/water-treatment-solution')}
+          >
+            <div className='txt'>
               <h2>수처리 솔루션</h2>
               <h3>CLEANTOP WWT</h3>
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-03' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/energy-system')}
-            >
+          <SwiperSlide
+            className='main01-03'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/kr/product/energy-system')}
+          >
+            <div className='txt'>
               <h2>에너지 시스템</h2>
               <h3>DC System</h3>
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-04' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/solvent-extraction')}
-            >
+          <SwiperSlide
+            className='main01-04'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/kr/product/solvent-extractant')}
+          >
+            <div className='txt'>
               <h2>용매 추출제</h2>
               <h3>THOREPHOS SOLEX</h3>
             </div>

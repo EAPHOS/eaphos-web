@@ -56,7 +56,7 @@ const Home = () => {
           }}
         >
           <div>
-            <div className='txt'>
+            <div className='txt en-txt'>
               <h3>Total solution specialized in secondary battery chemistry</h3>
               <h2>for securing eco-friendly and efficient mineral resources</h2>
             </div>
@@ -74,10 +74,8 @@ const Home = () => {
           }}
         >
           <div>
-            <div className='txt'>
-              <h3>
-                Total solution specialized in secondary battery chemistry{' '}
-              </h3>
+            <div className='txt en-txt'>
+              <h3>Total solution specialized in secondary battery chemistry</h3>
               <h2>for securing eco-friendly and efficient mineral resources</h2>
             </div>
           </div>
@@ -94,7 +92,7 @@ const Home = () => {
           }}
         >
           <div>
-            <div className='txt'>
+            <div className='txt en-txt'>
               <h3 className='swiper-title'>
                 Total solution specialized in secondary battery chemistry
               </h3>
@@ -139,21 +137,23 @@ const Home = () => {
             prevEl: '.swiper-button-prev',
           }}
         >
-          <SwiperSlide className='main01-05' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/anode-material')}
-            >
+          <SwiperSlide
+            className='main01-05'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/en/product/anode-material')}
+          >
+            <div className='txt'>
               <h2>Anode material</h2>
               <h3>FOR THE FASTER CHARGING</h3>
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-01' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/industrial-detergent')}
-            >
+          <SwiperSlide
+            className='main01-01'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/en/product/industrial-detergent')}
+          >
+            <div className='txt'>
               <h2>
                 Semiconductor and
                 <br />
@@ -163,31 +163,34 @@ const Home = () => {
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-02' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/water-treatment-solution')}
-            >
+          <SwiperSlide
+            className='main01-02'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/en/product/water-treatment-solution')}
+          >
+            <div className='txt'>
               <h2>Water treatment solution</h2>
               <h3>CLEANTOP WWT</h3>
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-03' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/energy-system')}
-            >
+          <SwiperSlide
+            className='main01-03'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/en/product/energy-system')}
+          >
+            <div className='txt'>
               <h2>Energy system</h2>
               <h3>DC System</h3>
             </div>
             <div className='caption'></div>
           </SwiperSlide>
-          <SwiperSlide className='main01-04' style={{ cursor: 'pointer' }}>
-            <div
-              className='txt'
-              onClick={() => navigate('/kr/product/solvent-extraction')}
-            >
+          <SwiperSlide
+            className='main01-04'
+            style={{ cursor: 'pointer' }}
+            onClick={() => navigate('/en/product/solvent-extractant')}
+          >
+            <div className='txt'>
               <h2>Solvent extractant</h2>
               <h3>THOREPHOS SOLEX</h3>
             </div>

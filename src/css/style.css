@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 @font-face {
   font-family: 'iceJaram-Rg';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2')
@@ -5,7 +6,6 @@
   font-weight: normal;
   font-style: normal;
 }
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 @font-face {
   font-family: 'NanumSquare';
   font-weight: 300;
@@ -73,7 +73,7 @@
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  word-break: keep-all !important;
+  /* word-break: keep-all !important; */
   overflow-x: hidden;
 }
 /*p, a, h1, h2, h3, h4, h5, h6, tr, td { transform: skew(-0.1deg);}*/
