@@ -310,7 +310,8 @@
   margin-bottom: 10px;
 }
 .right-header .menu {
-  position: absolute;
+  position: relative;
+  top: 20px;
   bottom: 120px;
 }
 .right-header .menu li {
